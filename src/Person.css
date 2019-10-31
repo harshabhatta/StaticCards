@@ -1,0 +1,32 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.person {
+    margin: 2rem auto;
+    padding: 2rem;
+    width: 17rem;
+    background-color: #eeeeee;
+    text-align: center;
+    border-radius: 0.3rem;
+    transition: full 1s linear;
+}
+
+.person img {
+    border-radius: 50%;
+    border: 0.1rem solid rebeccapurple;
+}
+
+.person h4 {
+    text-transform: capitalize;
+    color: turquoise;
+    letter-spacing: 0.15rem;
+    margin-top: 0.5rem;
+}
+
+.person:hover{
+    box-shadow: 1px 2px 5px rgb(0,0,0);
+}
+
